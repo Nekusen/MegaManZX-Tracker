@@ -21,5 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Mega Man ZX is a trademark of Capcom Co., Ltd. The map silhouettes are derived
-from the game's level geometry and are provided for personal use with the
-Archipelago randomizer.
+from the game's level geometry, and the images under var_renders/ reproduce
+the game's own level artwork (© Capcom); both are provided for personal use
+with the Archipelago randomizer only and are not covered by the MIT License.
