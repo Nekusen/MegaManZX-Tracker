@@ -24,3 +24,10 @@ Mega Man ZX is a trademark of Capcom Co., Ltd. The map silhouettes are derived
 from the game's level geometry, and the images under var_renders/ reproduce
 the game's own level artwork (© Capcom); both are provided for personal use
 with the Archipelago randomizer only and are not covered by the MIT License.
+
+The room art under var_renders/ incorporates pieces of the Mega Man ZX level
+maps ripped by X GOD, HIVOLT and rmexesaito for the RockMan Memorial Hall –
+Extra Hall (2010), as hosted on VGMaps.com (https://vgmaps.com/Atlas/DS/).
+Those maps are the work of their respective mappers; they are used here with
+credit, for this non-commercial fan project only, and are not covered by the
+MIT License either.

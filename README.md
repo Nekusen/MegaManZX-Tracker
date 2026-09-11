@@ -30,12 +30,15 @@ it, so this pack does not need updating when the logic changes.
   as collision silhouettes, plus `player.png`, the player position marker.
   Generated from the game's level data by the tools of the private
   development toolkit.
-- `var_renders/rooms/`: the room art SOURCES, one 1:1 PNG per room, drawn
-  from the game's level data by the toolkit's own renderer (background
-  layers with their real parallax, video registers and alpha blending as
-  measured in the game; animations frozen on their first frame) and then
-  retouched by hand where the renderer falls short. See the README inside
-  for the editing rules (same size, same geometry).
+- `var_renders/rooms/`: the room art SOURCES, one 1:1 PNG per room. The
+  base is drawn from the game's level data by the toolkit's own renderer;
+  wherever the level maps ripped by **X GOD, HIVOLT and rmexesaito for the
+  RockMan Memorial Hall – Extra Hall** (hosted on
+  [VGMaps.com](https://vgmaps.com/Atlas/DS/index.htm#MegaManZX)) line up
+  with our screen grid, their pixels are used instead, because their
+  backgrounds are placed the way the game shows them. The rest is retouched
+  by hand. See the README inside for the editing rules (same size, same
+  geometry).
 - `var_renders/images/`: the same maps as `images/` composed from those
   sources. Both folders contain the game's artwork, which is © Capcom Co.,
   Ltd., and are provided for personal use with the randomizer only.
@@ -43,6 +46,13 @@ it, so this pack does not need updating when the logic changes.
 
 Mega Man ZX is © Capcom Co., Ltd. This is a fan project, not affiliated with
 or endorsed by Capcom or Inti Creates.
+
+## Credits
+
+- Level maps: X GOD, HIVOLT and rmexesaito (RockMan Memorial Hall – Extra
+  Hall, 2010), hosted on [VGMaps.com](https://vgmaps.com/Atlas/DS/index.htm#MegaManZX).
+  Thank you for the years of careful ripping; the renders flavour of this
+  pack would not look right without them.
 
 ## License
 
