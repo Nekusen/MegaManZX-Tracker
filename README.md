@@ -30,12 +30,15 @@ it, so this pack does not need updating when the logic changes.
   as collision silhouettes, plus `player.png`, the player position marker.
   Generated from the game's level data by the tools of the private
   development toolkit.
-- `var_renders/images/`: the same maps over 1:1 room renders drawn from the
-  game's level data by the toolkit's own renderer (background layers with
-  their real parallax, video registers and alpha blending as measured in
-  the game; animations frozen on their first frame). These contain the
-  game's artwork, which is © Capcom Co., Ltd., and are provided for
-  personal use with the randomizer only.
+- `var_renders/rooms/`: the room art SOURCES, one 1:1 PNG per room, drawn
+  from the game's level data by the toolkit's own renderer (background
+  layers with their real parallax, video registers and alpha blending as
+  measured in the game; animations frozen on their first frame) and then
+  retouched by hand where the renderer falls short. See the README inside
+  for the editing rules (same size, same geometry).
+- `var_renders/images/`: the same maps as `images/` composed from those
+  sources. Both folders contain the game's artwork, which is © Capcom Co.,
+  Ltd., and are provided for personal use with the randomizer only.
 - `build_pack.py`: builds both release zips.
 
 Mega Man ZX is © Capcom Co., Ltd. This is a fan project, not affiliated with
