@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Zip the tracker packs for a release, in the layout Universal Tracker expects
+"""Zip the tracker pack for a release, in the layout Universal Tracker expects
 from an external pack (images/ at the zip root), plus README and LICENSE:
 
-    build/mmzx_tracker.zip          images/              collision silhouettes (default)
-    build/mmzx_tracker_renders.zip  var_renders/images/  the game's own level art
+    build/mmzx_tracker.zip   images/   the game's own level art, one map per area and per room
 
     python build_pack.py [--out-dir build]
 """
@@ -14,7 +13,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PACKS = {
     "mmzx_tracker.zip": ROOT / "images",
-    "mmzx_tracker_renders.zip": ROOT / "var_renders" / "images",
 }
 
 
