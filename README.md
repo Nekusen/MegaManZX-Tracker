@@ -8,8 +8,8 @@ files.
 ## Using it with Universal Tracker
 
 1. Download `mmzx_tracker.zip` from the [Releases](https://github.com/Nekusen/MegaManZX-Tracker/releases)
-   page and keep it zipped. It holds one map per area and one per room, drawn
-   with the game's own level art.
+   page and keep it zipped. It holds the game's world map, one map per area and
+   one per room, drawn with the game's own art.
 2. The first time Universal Tracker opens the map tab of a Mega Man ZX slot it
    asks for the zip: pick the file. You can also set the path in `host.yaml`
    under `mmzx_settings` → `ut_pack_path`.
@@ -24,11 +24,13 @@ does not need updating when the logic changes.
   Editor's rendering of each room, flattened to the tracker's screen grid and
   retouched by hand where it falls short. See the README inside for the
   editing rules (same size, same geometry).
-- `images/`: the pack images composed from those sources (one map per area,
-  one per room, plus `player.png`, the player position marker).
+- `overall/`: `ingame_map.png`, the world map of the pause menu's MISSION tab,
+  taken from the game with every room, link and Transerver revealed.
+- `images/`: the pack images composed from those sources (the world map, one
+  map per area, one per room, plus `player.png`, the player position marker).
 - `build_pack.py`: builds the release zip.
 
-Both folders contain the game's artwork, which is © Capcom Co., Ltd., and are
+These folders contain the game's artwork, which is © Capcom Co., Ltd., and are
 provided for personal use with the randomizer only. Mega Man ZX is © Capcom
 Co., Ltd. This is a fan project, not affiliated with or endorsed by Capcom or
 Inti Creates.

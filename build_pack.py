@@ -2,7 +2,7 @@
 """Zip the tracker pack for a release, in the layout Universal Tracker expects
 from an external pack (images/ at the zip root), plus README and LICENSE:
 
-    build/mmzx_tracker.zip   images/   the game's own level art, one map per area and per room
+    build/mmzx_tracker.zip   images/   the game's own art: the world map, one map per area and per room
 
     python build_pack.py [--out-dir build]
 """
