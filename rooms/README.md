@@ -6,10 +6,21 @@ One PNG per room, 1:1 game pixels, exactly `screens_wide * 256` by
 from them by the toolkit, and every check, door and player-position marker
 is a pixel coordinate inside this grid.
 
-The base is the room rendering of the Mega Man ZX Editor, flattened to this
-grid; rooms are then retouched by hand where that rendering falls short
-(missing platforms, wrong or noisy backgrounds). Local reference material for
-the retouching lives in `../reference/` (not part of the repository).
+Every room was rebuilt by hand on this grid from the level maps ripped by
+X GOD, HIVOLT and rmexesaito (RockMan Memorial Hall – Extra Hall, hosted on
+VGMaps.com), so each screen shows what the game shows; the two hub rooms
+(`z01`, `z02`) still come from the Mega Man ZX Editor's rendering. Screens the
+layout declares but the game never shows (the outer ring, unreachable copies
+of a level) are left in the margin colour: the toolkit trims them when it
+composes the pack (`tools/data/room_crops.json` in the lab), so a room never
+needs padding here. Local reference material lives in `../reference/` (not
+part of the repository).
+
+The lab checks every source against the game's own geometry
+(`tools/check_room_art.py`, using the collision silhouettes and the ROM
+renderer): a room whose art is shifted with respect to the collision is
+reported with the exact correction, and pure translations can be applied by
+the tool.
 
 Editing rules:
 

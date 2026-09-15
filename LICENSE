@@ -25,8 +25,8 @@ overall/ and images/ reproduce the game's own artwork (© Capcom); they are prov
 for personal use with the Archipelago randomizer only and are not covered by
 the MIT License.
 
-Some rooms were retouched by hand using as reference the Mega Man ZX level
+The room images under rooms/ were rebuilt by hand from the Mega Man ZX level
 maps ripped by X GOD, HIVOLT and rmexesaito for the RockMan Memorial Hall –
 Extra Hall (2010), as hosted on VGMaps.com (https://vgmaps.com/Atlas/DS/).
 Those maps are the work of their respective mappers and are credited here;
-they are not part of this repository.
+the original files are not part of this repository.
